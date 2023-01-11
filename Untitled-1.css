@@ -1,0 +1,68 @@
+
+.main-footer{width: 860px;
+    margin: 50px auto;
+    color: whitesmoke;
+    display: flex;
+    
+    justify-content: space-between;}
+    .main-footer h3{letter-spacing: 1px;margin-bottom: 10px;}
+    hr{width: 60px;
+    height: 3px;
+    border: none;
+    background-color: #eb3251;
+    }
+    .main-footer ul{margin-top: 8px;}
+     .span span{
+    padding-left: 5px;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    color: #777;
+    cursor: pointer;
+    transition: 0.5s;}
+    .main-footer ul li:hover{padding-left: 5px;}
+    span{display: block;}
+    .span{margin-top: 10px;}
+
+    <div class="main-footer">
+    <div class="list-1">
+        <h3>Menu links</h3>
+        <li>home</li>
+        <li>menu</li>
+        <li>about us</li>
+        <li>contact us</li>
+        <li>services</li>
+        
+            
+    </div>
+    <div class="list-2">
+        <h3>our services</h3>
+        <hr>
+
+        <div class="span">  <span>home</span>
+        <span>menu</span>
+        <span>contact</span>
+        <span>services</span>
+        <span>about us</span></div>
+        
+        
+    </div>
+    <div class="list-3">
+        <h3>Information</h3>
+        <hr>
+        <div class="span"><span>home</span>
+        <span>menu</span>
+        <span>contact</span>
+        <span>services</span>
+        <span>about us</span></div>
+        
+       
+    </div>
+    <div class="list-4">
+        <h3>Menu links</h3>
+        <hr>
+        <div class="span">
+
+        </div>
+       
+    </div>
+</div>

@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka+One&family=Lato&family=Lobster&family=Open+Sans:ital@1&family=Poppins&family=Prosto+One&display=swap');
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Fredoka One', cursive;}
+
+html{scroll-behavior: smooth;}
+body{
+background-color: #1e1c2a;}
+.navbar{max-width: 1180px;
+  
+margin: 2% auto;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+.navbar ul li{list-style: none;
+display: inline-block;
+padding-right: 18px;}
+.navbar ul li a{text-decoration: none;
+color: white;
+letter-spacing: 0.9px;}
+.navbar h2{font-size: 30px;
+color: orangered;}
+.navbar a{text-decoration: none;}
+.navbar ul li a::after{content:"";
+width: 0%;
+display: block;
+height: 2px;
+border-radius: 4px;
+background-color:#2ed573;
+transition: all 0.6s;}
+.navbar ul li a:hover::after{width: 100%;}
+input{display: none;}
+.fa-bars{font-size: 20px;
+cursor: pointer;
+color: aliceblue;
+opacity: 0;}
+
+
+
+
+
+/* nav end here ----------------
+here navbar ends*/
+
+/* here container starts*/
+.container{max-width: 900px;
+margin: 0px auto;
+display: flex;
+justify-content: space-between;}
+.row{flex-basis: 40%;
+margin-top: 130px;}
+.logo img{width: 100%;}
+.logo{flex-basis: 55%;
+padding: 0px 20px;}
+.container .row h1{ font-size: 43px;
+    color: orangered;
+letter-spacing: 1px;
+margin-bottom: 12px;}
+.container .row p{font-size: 20px;
+    color: white;
+letter-spacing: 1px;
+line-height: 27px;
+margin-bottom: 15px;}
+.container .row button{font-size: 16px;
+padding: 12px 16px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+color: white;
+background-color: orangered;
+transition: all 0.6s;}
+.container .row button:hover{background-color: #e7e7e7;
+color: #1b1b1b;}
+
+
+/* menu start heree ----start menu here*/
+ .menu{max-width: 905px;
+    margin: 120px auto;
+    color: white;
+display: flex;
+justify-content: space-between;}
+.menu-img{flex-basis: 40%;}
+.menu-img img{width: 100%;}
+.menu-dis{flex-basis: 50%;
+margin-top: 48px;}
+.menu small{display: inline-block;
+color: orangered;
+letter-spacing: 0.9px;
+margin-bottom: 14px;}
+.menu .menu-dis h3{letter-spacing: 1px;
+margin-bottom: 12px;
+line-height: 30px;}
+.menu .menu-dis p{
+font-size: 14px;
+letter-spacing: 0.8px;
+margin-bottom: 15px;}
+.menu .menu-dis button{font-size: 16px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    transition: all 0.6s;}
+    .menu .menu-dis button:hover{background-color: #e7e7e7;
+        color: #1b1b1b;}
+
+/* menu itam ends here */
+
+.food-menu{max-width: 905px;
+   
+margin: 0% auto;}
+.food-menu h2{color: white;
+    letter-spacing: 1px;
+text-align: center;
+margin-top: 12px;
+margin-bottom: 50px;}
+.food-menu .small{color: orangered;
+letter-spacing: 1px;
+text-align: center;
+display: block;
+font-size: 15px;}
+
+.rows{display: flex;
+justify-content: space-between;}
+.col-1{padding: 8px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-basis: 31%;
+    background-color: #e7e7e7;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+transition: transform 0.6s;}
+
+.col-1:hover{transform: scale(.94);}
+
+
+.col-1 img{width: 70%;}
+.col-1 p{display: block;
+    color: orangered;
+    margin-top: 10px;
+text-align: center;}
+.col-1 h4{text-align: center;
+color:#777;}
+.col-1 h1{color: black;
+    font-size: 22px;
+    margin: 10px 0px;
+text-align: center;}
+.fa-bag-shopping{position: relative;
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+right: -121px;
+bottom: 6px;}
+
+.services{max-width: 905px;
+    box-shadow: 0px 3px 6px black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+margin: 100px auto;}
+.services small{display: block;
+text-align: center;
+color: orangered;
+letter-spacing: 1px;
+font-size: 17px;}
+.services h1{color: white;
+    letter-spacing: 1px;
+margin-top: 13px;
+margin-bottom: 50px;
+text-align: center;}
+.services-row{display: flex;
+justify-content: space-between;}
+.col-2{flex-basis: 31%;
+    padding: 0px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.col-2 img{width: 30%;}
+.col-2 p{text-align: center;
+color: white;
+letter-spacing: 0.8px;
+font-size: 15px;}
+.col-2 h2{color:orangered;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+/* food services ends here*/
+.titles{max-width: 840px;
+margin: 5% auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: antiquewhite;
+border-radius: 10px;
+padding: 55px;}
+.titles h1{text-align: center;
+letter-spacing: 1px;
+font-size: 25px;
+margin-bottom: 18px;}
+.titles button{font-size: 16px;
+padding: 10px 14px ;
+border: none;
+border-radius: 5px;
+background-color:orangered;
+color: white;
+cursor: pointer;
+transition: 0.4s;}
+.titles button:hover{transform: scale(1.1);
+background-color: white;
+color: black;
+box-shadow: 0px 3px 6px lightgray;}
+/* main tittle ends here */
+
+.main-footer{max-width: 840px;
+margin: 0% auto;
+color: white;
+display: flex;
+justify-content: space-between;}
+hr{width: 20%;
+height: 3px;
+background-color: #f72447;
+border: none;
+border-radius: 4px;}
+
+.list-1{margin-top: 12px;}
+.list-1 h3{letter-spacing: 1px;
+margin-bottom: 10px;}
+.list-1 li{list-style: none;
+color: gray;
+letter-spacing: 1px;
+margin-top: 8px;
+transition: 0.6s;
+cursor: pointer;}
+.list-1 li:hover{padding-left: 6px;}
+
+
+.icons{margin-top: 10px;
+    font-size: 25px;
+}
+.fa-youtube:hover{cursor: pointer;
+color: 	#FF0000;}
+.fa-twitter:hover{cursor: pointer;
+color: #00acee;}
+.fa-instagram:hover{cursor: pointer;
+    color:  rgba(138, 58, 185,0001);
+     }
+.fa-facebook:hover{cursor: pointer;
+   color: #3b5998;}
+footer{background-color: #1b1b1b;
+padding: 50px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){.navbar{width: 100%;}
+ul{position: fixed;
+    right: -100%;
+    top: 9%;
+width: 100%;
+height: 50vh;
+display:flex ;
+flex-direction: column;
+align-items: flex-end;
+background-color: #1e1c2a;
+transition: 0.6s;}
+li{margin: 15px 10px;}
+input:checked ~ ul {right: 0%;}
+.fa-bars{opacity: 1;
+margin-right: 8px;}
+
+.container{width: 100%;
+    padding: 10px 10px;
+flex-direction: column;}
+.row{flex-basis: 100%;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 50px;}
+.logo{flex-basis: 100%;}
+
+.menu{width: 100%;
+flex-direction: column;
+}
+.menu .menu-dis{flex-basis: 100%;
+text-align: center;
+padding: 0px 10px;
+}
+.menu .menu-img{flex-basis: 100%;
+padding: 5px 40px;}
+.food-menu{width: 100%;
+}
+.rows{width: 100%;
+flex-direction: column;
+padding-left: 30px;
+padding-right: 30px;}
+.col-1{flex-basis: 100%;
+margin-bottom: 14px;}
+.services{width: 100%;}
+.services-row{width: 100%;
+flex-direction: column;
+}
+.col-2{flex-basis: 100%;
+margin-top: 25px;}
+.col-2 p{width: 300px;}
+.titles{width: 90%;
+}
+
+.main-footer{width: 100%;
+flex-direction: column;}
+.list-1{flex-basis: 100%;
+    padding-left: 20px;}
+hr{width: 20%;
+;}
+.list-1 h3{padding-left: 10px;}
+
+
+}
